@@ -15,8 +15,3 @@ read — no spoilers, no GM secrets.
 - [[Characters/PCs/PCs|Player Characters]]
 - [[Sessions/Sessions|Session Logs]]
 - [[Maps/Maps|Maps]]
-
-> [!tip] For the GM
-> Anything in `GM Only/` or `Drafts/` stays on your machine — see
-> `docs/PUBLISHING-AND-PRIVACY.md` in the project root for how that works
-> before you push to GitHub.

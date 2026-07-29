@@ -7,9 +7,7 @@ tags:
 
 # The World
 
-Overview of the setting players have been drawn into. Link out to regions,
-cultures, factions, and the bestiary as they're revealed in play — only put
-things here once the party actually knows about them.
+Overview of the setting the party has been drawn into.
 
 ## Index
 

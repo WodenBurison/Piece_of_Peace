@@ -6,16 +6,7 @@ tags:
 
 # Cultures
 
-Player-facing culture write-ups — customs, naming conventions, values. This
-mirrors the culture set built in Azgaar's Fantasy Map Generator (see
-`docs/FMG-CULTURE-GUIDE.md` in the project root for the mechanical side —
-name bases, expansionism, etc.).
-
-Starter roster, mapped to peoples on the generated map. Treat all of this
-as a first draft: expand each into its own page as the party actually
-encounters them, and keep anything spoiler-shaped (true motives, hidden
-alliances, what a people *really* wants) in `GM Only/Factions/` instead of
-here.
+Write-ups of the peoples of this world, as the party comes to know them.
 
 - **Aldwyn** — a human kingdom; likely the party's first real contact with
   the locals.

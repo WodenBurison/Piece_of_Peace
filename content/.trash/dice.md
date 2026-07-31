@@ -1,1 +1,0 @@
-`dice: [[table roller#^4914ed]]`

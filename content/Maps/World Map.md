@@ -6,17 +6,15 @@ tags:
   - political
 ---
 
-```leaflet
-id: leaflet-map
-image: [[World-Political.png]]
-height: 400px
-lat: 50
-long: 50
-minZoom: 7
-maxZoom: 10
-defaultZoom: 7
-unit: meters
-scale: 1
-marker: default, 39.983334, -82.983330, [[Note]]
-darkMode: false
+```base
+views:
+  - type: leaflet-map
+    name: Map
+    mapName: world-political
+    image: "[[World-Political.png]]"
+    height: 600
+    minZoom: -2
+    maxZoom: 2
+    defaultZoom: -1
+    zoomDelta: 0.25
 ```

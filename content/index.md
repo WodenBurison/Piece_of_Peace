@@ -13,4 +13,4 @@ Please have patience while I build the wiki.
 - [[World/World|The World]]
 - [[Characters/PCs/PCs|Player Characters]]
 - [[Session Links|Session Logs]]
-- [[Maps/Maps|Maps]]
+- [[Maps|Maps]]

@@ -5,8 +5,7 @@ description: Campaign wiki for Piece of Peace, a Cortex Prime isekai game.
 
 # Welcome to Piece of Peace
 
-This is the player-facing wiki for our campaign. Everything here is safe to
-read — no spoilers, no GM secrets.
+Please have patience while I build the wiki.
 
 ## Start here
 

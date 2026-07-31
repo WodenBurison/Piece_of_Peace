@@ -249,15 +249,16 @@ plugins:
     options: {}
     order: 50
   - source: "@quartz-community/note-properties"
-    enabled: false
-    options: # disabled — was rendering description/tags/aliases as a visible table on every page
+    enabled: true
+    options: # this plugin also strips frontmatter from the body — must stay enabled.
+      # hidePropertiesView hides the visible table without breaking that.
       includeAll: false
       includedProperties:
         - description
         - tags
         - aliases
       excludedProperties: []
-      hidePropertiesView: false
+      hidePropertiesView: true
       delimiters: ---
       language: yaml
     order: 5

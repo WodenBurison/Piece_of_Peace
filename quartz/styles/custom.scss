@@ -13,9 +13,18 @@ html {
 // Aged parchment background texture. background-color is the fallback/
 // flash-of-unstyled-content color and matches the image's average tone,
 // so there's no color jump while the image loads.
+//
+// NOTE: paths below are relative ("static/...", no leading slash), not
+// root-absolute ("/static/..."). This site deploys to a GitHub Pages
+// subpath (baseUrl WodenBurison.github.io/Piece_of_Peace), and a
+// root-absolute url() ignores that subpath entirely — it resolves
+// against the domain root and 404s. The compiled stylesheet that holds
+// these rules always lands at the build output root (same level as the
+// static/ folder), so a relative path resolves correctly under any
+// baseUrl without needing to know what that baseUrl is.
 body {
   background-color: #e8d199;
-  background-image: url("/static/parchment-bg.webp");
+  background-image: url("static/parchment-bg.webp");
   background-size: cover;
   background-position: center top;
   background-attachment: fixed;
@@ -30,21 +39,21 @@ body {
 // that's a different reading mode.
 @font-face {
   font-family: "OpenDyslexic";
-  src: url("/static/fonts/OpenDyslexic-Regular.woff2") format("woff2");
+  src: url("static/fonts/OpenDyslexic-Regular.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "OpenDyslexic";
-  src: url("/static/fonts/OpenDyslexic-Bold.woff2") format("woff2");
+  src: url("static/fonts/OpenDyslexic-Bold.woff2") format("woff2");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "OpenDyslexic";
-  src: url("/static/fonts/OpenDyslexic-Italic.woff2") format("woff2");
+  src: url("static/fonts/OpenDyslexic-Italic.woff2") format("woff2");
   font-weight: 400;
   font-style: italic;
   font-display: swap;

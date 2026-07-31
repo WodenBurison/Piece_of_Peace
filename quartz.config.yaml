@@ -6,7 +6,7 @@ configuration:
   enablePopovers: true
   analytics: null
   locale: en-US
-  baseUrl: CHANGE-ME.github.io/piece-of-peace-wiki
+  baseUrl: WodenBurison.github.io/Piece_of_Peace
   ignorePatterns:
     - private
     - templates

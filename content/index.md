@@ -13,5 +13,5 @@ read — no spoilers, no GM secrets.
 - [[Player Guide/Session 0|Session 0 & House Rules]]
 - [[World/World|The World]]
 - [[Characters/PCs/PCs|Player Characters]]
-- [[Sessions/Sessions|Session Logs]]
+- [[Session Links|Session Logs]]
 - [[Maps/Maps|Maps]]

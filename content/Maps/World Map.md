@@ -11,7 +11,7 @@ views:
   - type: leaflet-map
     name: Map
     mapName: world-political
-    image: "[[World-Political.png]]"
+    image: World-Political.png
     height: 600
     minZoom: -2
     maxZoom: 2

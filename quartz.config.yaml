@@ -18,30 +18,47 @@ configuration:
     fontOrigin: googleFonts
     cdnCaching: true
     typography:
-      header: Cinzel
+      header: IM Fell English
       body: EB Garamond
       code: IBM Plex Mono
+    # Single aged-parchment palette, colors sampled from the actual texture
+    # image (see quartz/styles/custom.scss for the background image itself).
+    # Dark ink on warm gold paper — no need for a separate dark mode, since
+    # the image isn't stark white to begin with. Both blocks below are
+    # identical on purpose; the darkmode toggle is disabled further down in
+    # this file so there's nothing left for it to switch between.
+    # Text colors picked against the ACTUAL texture's measured luminance
+    # range (sampled the image directly), not just its flat average — a
+    # photographic background varies in local contrast, so the old colors
+    # (especially tertiary, which was an orange nearly the same tone as
+    # the paper itself) were unreadable in the explorer and elsewhere.
+    # These are all near-black/near-navy/near-maroon: far enough from the
+    # paper's own warm hue, and dark enough, to clear WCAG AA (4.5:1)
+    # against the typical range of the texture. The rare, very darkest
+    # flecks in the photo can still eat into any ink color's contrast —
+    # that's a hard limit of a photographic background with no text
+    # panel, not something a color choice alone can fully solve.
     colors:
       lightMode:
-        light: "#f4ecd8"
-        lightgray: "#d9c9a3"
-        gray: "#b8a37e"
-        darkgray: "#3b2f22"
-        dark: "#2a1f16"
-        secondary: "#7a3b2e"
-        tertiary: "#a8763f"
-        highlight: rgba(139, 90, 43, 0.15)
-        textHighlight: "#e8c76688"
+        light: "#e8d199"
+        lightgray: "#c9a86a"
+        gray: "#3a2c1c"
+        darkgray: "#2c1c0d"
+        dark: "#180d02"
+        secondary: "#5c1509"
+        tertiary: "#1c2438"
+        highlight: rgba(28, 36, 56, 0.2)
+        textHighlight: "#1c243855"
       darkMode:
-        light: "#1c1712"
-        lightgray: "#3a2f24"
-        gray: "#5c4a37"
-        darkgray: "#d8c9a8"
-        dark: "#f0e4c0"
-        secondary: "#c98a4b"
-        tertiary: "#e0a868"
-        highlight: rgba(201, 138, 75, 0.15)
-        textHighlight: "#8b5a2b88"
+        light: "#e8d199"
+        lightgray: "#c9a86a"
+        gray: "#3a2c1c"
+        darkgray: "#2c1c0d"
+        dark: "#180d02"
+        secondary: "#5c1509"
+        tertiary: "#1c2438"
+        highlight: rgba(28, 36, 56, 0.2)
+        textHighlight: "#1c243855"
 plugins:
   - source: "@quartz-community/created-modified-date"
     enabled: true
@@ -80,7 +97,7 @@ plugins:
     enabled: true
     order: 40
   - source: "@quartz-community/table-of-contents"
-    enabled: true
+    enabled: false # was right-sidebar; right sidebar removed entirely
     order: 50
     layout:
       position: right
@@ -162,7 +179,7 @@ plugins:
       position: left
       priority: 50
   - source: "@quartz-community/graph"
-    enabled: true
+    enabled: false # was right-sidebar; right sidebar removed entirely
     layout:
       position: right
       priority: 10
@@ -175,7 +192,7 @@ plugins:
       groupOptions:
         grow: true
   - source: "@quartz-community/backlinks"
-    enabled: true
+    enabled: false # was right-sidebar; right sidebar removed entirely
     layout:
       position: right
       priority: 50
@@ -200,7 +217,7 @@ plugins:
       position: left
       priority: 10
   - source: "@quartz-community/darkmode"
-    enabled: true
+    enabled: false
     layout:
       position: left
       priority: 30

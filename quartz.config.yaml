@@ -18,8 +18,8 @@ configuration:
     fontOrigin: googleFonts
     cdnCaching: true
     typography:
-      header: IM Fell English
-      body: EB Garamond
+      header: Playfair Display
+      body: Charm
       code: IBM Plex Mono
     # Single aged-parchment palette, colors sampled from the actual texture
     # image (see quartz/styles/custom.scss for the background image itself).
@@ -128,7 +128,11 @@ plugins:
     enabled: false
     order: 92
   - source: "@quartz-community/quartz-fonts"
-    enabled: true
+    enabled: false # was silently overriding theme.typography with its own
+    # defaults (Schibsted Grotesk / Source Sans Pro) via an unlayered CSS
+    # rule that beats the themed @layer quartz-base every time — every
+    # header/body font choice made in this config was fighting this plugin
+    # and losing. theme.typography (below) is the only font control now.
   - source: "@quartz-themes/core"
     enabled: false
   - source: "@quartz-community/remove-draft"

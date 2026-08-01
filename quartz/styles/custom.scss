@@ -31,39 +31,6 @@ body {
   background-repeat: no-repeat;
 }
 
-// OpenDyslexic, self-hosted (not on Google Fonts, so it can't go through
-// the normal googleFonts fontOrigin pipeline — files live in
-// quartz/static/fonts/, copied from the @fontsource/opendyslexic npm
-// package). Applied to headers and body text, which is the actual
-// accessibility target; code blocks stay in the monospace font since
-// that's a different reading mode.
-@font-face {
-  font-family: "OpenDyslexic";
-  src: url("static/fonts/OpenDyslexic-Regular.woff2") format("woff2");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "OpenDyslexic";
-  src: url("static/fonts/OpenDyslexic-Bold.woff2") format("woff2");
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "OpenDyslexic";
-  src: url("static/fonts/OpenDyslexic-Italic.woff2") format("woff2");
-  font-weight: 400;
-  font-style: italic;
-  font-display: swap;
-}
-
-:root {
-  --headerFont: "OpenDyslexic", var(--bodyFont);
-  --bodyFont: "OpenDyslexic", sans-serif;
-}
-
 // Left explorer sidebar widened (320px -> 400px, +25%), right sidebar
 // removed entirely (table-of-contents/graph/backlinks disabled in
 // quartz.config.yaml, so there's nothing left to put there). Desktop's

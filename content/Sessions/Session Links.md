@@ -4,6 +4,6 @@ tags:
   - sessions
 ---
 
-# Session Logs
+# Session X
 
 Index of session recaps, in order.

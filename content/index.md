@@ -9,7 +9,7 @@ Please have patience while I build the wiki.
 
 ## Start here
 
-- [[Player Guide/Session 0|Session 0 & House Rules]]
+- [[PG1 Session 0|Session 0 & House Rules]]
 - [[World/World|The World]]
 - [[Characters/PCs/PCs|Player Characters]]
 - [[Session Links|Session Logs]]

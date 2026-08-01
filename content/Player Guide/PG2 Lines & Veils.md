@@ -1,3 +1,9 @@
+---
+title: Lines & Veils
+tags:
+  - guide
+---
+
 # Lines - Not Ever Discussed
 - Carnivorous Insect/Worm/Small Creature Swarms
 - Fetish stuff

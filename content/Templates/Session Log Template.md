@@ -1,17 +1,8 @@
 ---
-title: "Session {{number}} — {{date}}"
+title: Session {{number}}
 tags:
   - session-log
 ---
+# What Happened
 
-# Session {{number}}
-
-**Date played:**
-**Attendance:**
-
-## Recap
-
-
-
-## Loose threads
-
+# Loose threads

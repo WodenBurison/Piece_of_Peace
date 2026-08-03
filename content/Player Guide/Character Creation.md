@@ -52,4 +52,5 @@ Talents are simply SFX that aren't directly attached to anything. These are for 
 ## Relationships & Reputations
 These will simply come up in play as they come up. During play you can get a Relationship at D6 or a Reputation at D4 for free.
 # How do I Level Up?
-Please check out [[Other Mechanics]]
+Please check out [[Other Mechanics]].
+

@@ -16,6 +16,7 @@ NOTE: You can only gain/upgrade/unlock for a trait once per tag scene. For examp
 - Gain an Ability at D6.
 - Upgrade a Reputation from D4 to D6
 - Upgrade an Extra Trait from D6 to D8
+- Upgrade a Prime Trait from D4 to D6
 - Unlock a SFX for an Ability.
 - Gain a Talent.
 #### 10 XP

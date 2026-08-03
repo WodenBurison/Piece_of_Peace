@@ -8,7 +8,7 @@ tags:
 
 ![[Maps/raw maps/World-Political.png]]
 
-See: [[World/World|The World]]
+
 ## List of Nations
 
 - [[World/Nations/Beletan Theocracy|Beletan Theocracy]]

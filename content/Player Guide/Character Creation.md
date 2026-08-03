@@ -4,7 +4,7 @@ tags:
   - guide
 ---
 # Prime Sets
-Remember Prime Sets are dice you will hopefully include at least one from each set in your dice pool every roll. Each roll you simply pick an appropriate one to include.
+Remember Prime Sets are dice you will hopefully include at least one from each set in your dice pool every roll. Each roll you simply pick an appropriate one to include..
 ## Distinctions
 You will write in your own Distinctions. This is probably the hardest thing about your character and you can save for last to think about. You need 3 of them and they all start at D8. Distinctions are normally 3-4 words long, but that's a soft rule. They don't have to be something mechanical sounding, could be some kind of virtue or motto. Considering we are playing an isekai I would suggest one as a description of abilities, like "Mage of Hellfire"; the second to be more mundane, like "Eye for the Good Stuff"; the third be some kind of moral, like "Will not Stand for Injustice." If you can think of some other category, please feel free to share in the discord, I am certainly not limiting you to my suggestions.
 ## Affiliations

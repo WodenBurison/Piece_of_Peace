@@ -13,12 +13,12 @@ Solo, Buddy, and Team each start at D8, but you can step down one to step up ano
 We will use the fantasy Roles on pg58: Warrior, Priest, Wizard, Rogue, Bard. To stat these out we will use an array of D10, D8, D6, D6, D4.
 # Extra Sets
 Unlike the Prime Sets, you will have a bit more customization with the Extras, as this is where you really differentiate your character's stuff. You will have 10 points to spend on whatever makes sense for your character. Besides the points please take the other PCs as D8 Relationships, they won't matter much in the start but they will grow in usefulness as each of you become more known in the world.
-1 Point:
+#### 1 Point:
 - Gain an Ability at D6.
 - Upgrade an Ability from D6 to D8.
 - Unlock a SFX for an Ability.
 - Gain a Talent.
-2 Point:
+#### 2 Point:
 - Unlock a SFX for a Distinction.
 - Upgrade an Ability from D8 to D10.
 ## Abilities
@@ -52,4 +52,4 @@ Talents are simply SFX that aren't directly attached to anything. These are for 
 ## Relationships & Reputations
 These will simply come up in play as they come up. During play you can get a Relationship at D6 or a Reputation at D4 for free.
 # How do I Level Up?
-Please check out [[PG3 Other Mechanics]]
+Please check out [[Other Mechanics]]

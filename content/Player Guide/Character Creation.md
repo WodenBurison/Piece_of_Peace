@@ -54,16 +54,17 @@ These will simply come up in play as they come up. During play you can get a Rel
 # How do I Level Up?
 Please check out [[Other Mechanics]].
 # Using Cortex Prime Pal
-Step 1
+**Step 1**
 use the commands /sheet create and give your character a name
 ![[Step1.png]]
-Step 2
-use /sheet set to set all your traits. Some will have the trait names already set, like affiliations (where it says Solo in this example image), but others will be free form for you to write in like distinctions. Use the "text" option to write down SFX in whatever format makes sense to you. I recommend using the "pipe" for separation of different SFX, but you could also use the pound/hash tag to separate, or even enclosing them in angle brackets could work. I will probably pick up on whatever format you use quickly.
-Examples
-SFX Name - descriptor: exa; Limit: gear; cost here; benefit here | SFX Name - descriptor: exa; Limit: gear; cost here; benefit here
-OR
-SFX Name - descriptor: exa; Limit: gear; cost here; benefit here # SFX Name - descriptor: exa; Limit: gear; cost here; benefit here
-OR
-<SFX Name - descriptor: exa; Limit: gear; cost here; benefit here><SFX Name - descriptor: exa; Limit: gear; cost here; benefit here>
+**Step 2**
+use /sheet set to set all your traits. Some will have the trait names already set, like affiliations (where it says Solo in this example image), but others will be free form for you to write in like distinctions. Use the "text" option to write down SFX in whatever format makes sense to you.
 ![[Step2.png]]
+**The new line feature**
+I was able to implement a new line feature. In the text field of the command the following image was created by putting in ```
+```
+SFX\ndescriptor\nstuff
+```
+Notice you do not need to use spaces when using the "\n", it simply will read a new line.
+![[newlineshow.png]]
 Repeat Step 2 until your sheet is filled out.

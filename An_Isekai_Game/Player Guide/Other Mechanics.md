@@ -28,3 +28,4 @@ NOTE: You can only gain/upgrade/unlock for a trait once per tag scene. For examp
 - Upgrade a Prime Trait from D8 to D10
 #### 20 XP
 - Upgrade a Prime Trait from D10 to D12
+- Upgrade your power scale up 1 level

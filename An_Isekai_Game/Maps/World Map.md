@@ -12,7 +12,7 @@ tags:
 ## List of Nations
 
 - [[World/Nations/Beletan Theocracy|Beletan Theocracy]]
-- [[World/Nations/Commune of Kraza|Commune of Kraza]]
+- [[Commune of Kraza|Commune of Kraza]]
 - [[World/Nations/Duchy of Amardia|Duchy of Amardia]]
 - [[World/Nations/Duchy of Bod|Duchy of Bod]]
 - [[World/Nations/Duchy of Clifia|Duchy of Clifia]]

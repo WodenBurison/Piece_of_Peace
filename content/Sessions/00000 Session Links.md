@@ -1,5 +1,5 @@
 ---
-title: Session Logs
+title: "!Session Logs"
 tags:
   - sessions
 ---

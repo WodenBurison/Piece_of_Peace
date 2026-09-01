@@ -4,5 +4,5 @@ tags:
   - Provinces
 ---
 
-![[Gimura Parish.png]]
+![[Gimura Parish.webp]]
 Province of [[Commune of Kraza]]

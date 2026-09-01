@@ -3,7 +3,7 @@ title: Commune of Kraza
 tags:
   - nations
 ---
-
+![[Commune of Kraza.webp]]
 # Commune of Kraza
 
 - **Capital:** Xeth

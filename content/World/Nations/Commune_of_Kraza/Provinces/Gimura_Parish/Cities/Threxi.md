@@ -4,7 +4,7 @@ tags:
   - Cities
 ---
 
-![[threxi.png]]
+![[threxi.webp]]
 Burg of [[Gimura Parish]] in the [[Commune of Kraza]]
 
 

@@ -1,2 +1,2 @@
-![[Screenshot_20260901_113110.png]]
+![[Gimura Parish.png]]
 Province of [[Commune of Kraza]]
